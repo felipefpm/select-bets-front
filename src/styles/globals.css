@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-roboto: ${roboto.style.fontFamily};
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  color: #fff;
+  background-image: url('/bg-app.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
